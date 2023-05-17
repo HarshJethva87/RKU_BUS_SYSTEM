@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/white"
+        app:cardUseCompatPadding="true"
+        app:strokeWidth="5dp"
+        android:layout_marginBottom="10dp"
+        app:strokeColor="@color/theme">
+
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/busdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DATE"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/bustime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TIME"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+
+
+                    <TextView
+                        android:id="@+id/pickup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PICK-UP"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+
+
+
+
+                    <TextView
+                        android:id="@+id/drop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DROP"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</RelativeLayout>
