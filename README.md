@@ -1,2 +1,2 @@
 # RKU_BUS_SYSTEM
-This App Basically use for RKU Students and Staff only , this app show bus time table and also student and staff send complain for any bus and bus driver . this app build in "Android Technology"
+This app is basically used for RKU Students and Staff only. This app shows the bus timetable and also student and staff can send complaints about any bus and bus driver. This app is built in "Android Technology"
